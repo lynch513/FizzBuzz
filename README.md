@@ -1,6 +1,6 @@
 # FizzBuzz
 
-My version of the FizzBuzz utility in F#. Console utility, refactored starting from the naive implementation (starting branch), then splitting IO and adding modules (medium branch) and up to the multi-layer (onion) architecture (ending branch).
+My version of the FizzBuzz utility in F#. Console utility, refactored starting from the naive implementation (starting branch), then splitting IO and adding modules (modules branch) and up to the multi-layer (onion) architecture (onion branch).
 
 ## Usage
 
