@@ -11,9 +11,8 @@ module FizzBuzz =
         [1 .. x]
         |> Seq.map getNumber 
 
-module IO =
-    let readIntFromUser () =
-        let x = Console.ReadLine ()  
+module Parser =
+    let tryParse (x: string) = 
         match Int32.TryParse x with
         | true, d -> Some d
         | _ -> None
@@ -26,9 +25,9 @@ module Validate =
 [<EntryPoint>]
 let main argv =
     printfn "Please enter a digit greater than 0 and less or equal than 4000:"
-    let x = IO.readIntFromUser ()  
+    let x = Console.ReadLine ()  
     printfn "Output:"
-    match x with
+    match Parser.tryParse x with
     | Some x ->
         match Validate.checkInputRange x with
         | Some x ->
