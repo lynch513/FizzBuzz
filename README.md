@@ -1,10 +1,10 @@
 # FizzBuzz
 
-My version of the FizzBuzz utility in F#. Console utility, refactored starting from the naive implementation (starting branch), then splitting IO and adding modules (modules branch) and up to the multi-layer (onion) architecture (onion branch).
+My version of the FizzBuzz utility in F#. Console utility, refactored from the naive implementation (see branch starting), then splitting IO and adding modules (branch modules) and up to the multi-layer (onion) architecture (branch onion).
 
 ## Usage
 
-* Download and install .NET Core (https://dotnet.microsoft.com/download) 
+* Download and install .NET Core [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download) 
 * Clone this repo at some local directory. Go into it and type in console: 
 
 ```console
@@ -14,7 +14,7 @@ My version of the FizzBuzz utility in F#. Console utility, refactored starting f
 
 ## Links
 
-(https://youtu.be/gNARAXJd_tM)[https://youtu.be/gNARAXJd_tM]
+[https://youtu.be/gNARAXJd_tM](https://youtu.be/gNARAXJd_tM)
 
 Written after watching this video. Thanks to comrade Ben Gobeil for reminding me how beautiful F# after all.
 
@@ -24,7 +24,7 @@ Written after watching this video. Thanks to comrade Ben Gobeil for reminding me
 
 ## Использование
 
-* Скачать и установить .NET Core (https://dotnet.microsoft.com/download) 
+* Скачать и установить .NET Core [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download) 
 * Клонировать этот репозитории в локальную директорию. Зайти в нее. И далее в консоли:
 
 ```console
@@ -34,7 +34,7 @@ Written after watching this video. Thanks to comrade Ben Gobeil for reminding me
 
 ## Список литературы
 
-(https://youtu.be/gNARAXJd_tM)[https://youtu.be/gNARAXJd_tM]
+[https://youtu.be/gNARAXJd_tM](https://youtu.be/gNARAXJd_tM)
 
 Написано после просмотра видео. Спасибо товарищу за то, что напомнил как  все-таки прекрасен F#.
 ## Licence
